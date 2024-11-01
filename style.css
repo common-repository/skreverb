@@ -1,0 +1,67 @@
+div.SkReverb {
+	border: 0px; //1px dotted white;
+	margin:0px;
+	//padding-top:5px;
+	display:block;
+	position:relative;
+	text-align:center;
+	//background-color: #e3ffb8;
+}
+
+span.SkReverbWidget {
+	display:inline;
+	float:left;
+	clear:none;
+	//margin:5px;
+	//padding:5px;
+	//border:1px solid green;
+	text-align:center;
+	width:100%;
+}
+
+div.SkReverb span {
+	text-align:center;
+	margin:auto;
+}
+
+p.SkReverbGroup, span.SkReverbCR {
+	display:block;
+	//float:none;
+	clear:both;
+	//width:100%;
+	//margin:5px;
+	//padding:10px;
+	//border:1px solid pink;
+	text-align:center;
+}
+
+a.SkReverbPopUp:hover {
+	color:red;
+	background-color:white;
+	text-decoration:none;
+}
+
+a.SkReverbPopUp:link {
+	color:darkgreen;
+	background-color:none;
+	text-decoration:none;
+}
+
+a.SkReverbPopUp {
+	font-size:10px;
+	border:1px white dotted;
+	padding:3px;
+	text-shadow:none;
+	//float:right;
+}
+
+span.SkReverbEnd p { width:100%; }
+
+.SkReverb small {
+	font-size: 8px;
+	margin:2px;
+}
+	
+.SkReverb img {
+	padding: 0px;
+}
